@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EZ SPA COST</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#303443;background:#fffaf9}
+.app{display:flex;min-height:100vh}
+aside{width:245px;flex-shrink:0;background:#fff;border-right:1px solid #f1dfe4;padding:22px 14px}
+.brand{text-align:center;padding:12px 0 24px}
+.brand h2{font-family:Georgia,serif;color:#8b2949}
+.brand span{background:#dcefe3;color:#276b51;padding:5px 14px;border-radius:20px;font-size:12px}
+nav{display:grid;gap:8px;margin-top:15px}
+nav a{padding:13px 10px;border-radius:12px;text-decoration:none;color:#454653;font-size:14px}
+nav a:first-child{background:#fbd8e1;color:#8b2949;font-weight:bold}
+main{flex:1;min-width:0;padding:28px;background:radial-gradient(ellipse at 80% 80%,#e3f6ec 0,transparent 35%),radial-gradient(ellipse at 20% 70%,#fbe8ef 0,transparent 35%),#fffdfc}
+.top{background:white;border:1px solid #efc8d3;border-left:5px solid #ed7895;border-radius:18px;padding:18px;margin-bottom:25px;color:#526455}
+.hero{min-height:275px;border-radius:25px;padding:35px 15px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(110deg,#fbe9f3,#f8f8fb,#dcf8e9);box-shadow:0 5px 14px #00000012}
+.lotus{font-size:38px;background:white;border-radius:50%;padding:12px}
+.hero h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,48px);margin:12px 0;color:#222b3b}
+.hero .slogan{color:#c94e75;font-family:Georgia,serif;font-style:italic;font-size:19px}
+.hero h2{font-family:Georgia,serif;color:#17664d;font-size:30px;margin:15px 0 3px}
+.hero p{margin:0;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:25px}
+.card{border:1px solid #eadce4;border-radius:19px;padding:18px 8px;text-align:center;min-height:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.card .icon{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;color:white;font-size:23px;box-shadow:0 3px 7px #00000012}
+.card b{font-size:13px}.card small{font-size:11px;color:#777984}
+.c1{background:#fbe9ed}.c1 .icon{background:#f16d8a}.c2{background:#e1f8ed}.c2 .icon{background:#10ad80}.c3{background:#fff4d8}.c3 .icon{background:#f2a000}.c4{background:#f4e9fb}.c4 .icon{background:#a54de8}.c5{background:#dcf8f4}.c5 .icon{background:#18b4a4}.c6{background:#e5f4fb}.c6 .icon{background:#169fd4}.c7{background:#e9edff}.c7 .icon{background:#6667e9}.c8{background:#fde8ec}.c8 .icon{background:#e51e4d}.c9{background:#f1f8db}.c9 .icon{background:#70a90b}
+@media(max-width:950px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}aside{width:210px}}
+@media(max-width:650px){.app{display:block}aside{width:100%}nav{grid-template-columns:repeat(2,minmax(0,1fr))}main{padding:14px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+</head>
+<body><div class="app"><aside><div class="brand"><div style="font-size:36px">🌸</div><h2>Azie Balinese Spa</h2><span>EZ SPA COST V2.5</span><p style="font-size:12px;color:#85858b">Sistem Pengurusan & Kos Spa</p></div><nav>
+<a href="#utama">⌂ &nbsp; 1. Menu Utama</a><a href="#syarikat">▣ &nbsp; 2. Maklumat Syarikat</a><a href="#dashboard">▥ &nbsp; 3. Dashboard Kos</a><a href="#belanjawan">▤ &nbsp; 4. Rekod Belanjawan</a><a href="#lembaran">▦ &nbsp; 5. Lembaran Kos</a><a href="#varians">⚖ &nbsp; 6. Analisis Varians</a><a href="#perkhidmatan">❋ &nbsp; 7. Data Perkhidmatan</a><a href="#pekerja">♟ &nbsp; 8. Pekerja & Terapis</a><a href="#laporan">▣ &nbsp; 9. Cetak & Laporan</a><a href="#ringkasan">◔ &nbsp; 10. Ringkasan Kos</a>
+</nav></aside><main id="utama"><div class="top">🌿 &nbsp; EZ SPA COST <span style="float:right">PASTEL PINK & GREEN</span></div><section class="hero"><div class="lotus">🌺</div><h1>Azie Balinese Spa</h1><div class="slogan">Beauty • Relax • Rejuvenate</div><h2>EZ SPA COST</h2><p>Sistem Pengurusan & Pengiraan Kos Perkhidmatan Spa Pintar</p></section><section class="cards">
+<a class="card c1" href="#syarikat" style="color:inherit;text-decoration:none"><div class="icon">▣</div><b>1. Maklumat Syarikat</b><small>Profil & Tetapan Spa</small></a>
+<a class="card c2" href="#dashboard" style="color:inherit;text-decoration:none"><div class="icon">⌁</div><b>2. Dashboard</b><small>KPI & Graf Kewangan</small></a>
+<a class="card c3" href="#belanjawan" style="color:inherit;text-decoration:none"><div class="icon">▤</div><b>3. Rekod Belanjawan</b><small>Jadual Perbelanjaan</small></a>
+<a class="card c4" href="#lembaran" style="color:inherit;text-decoration:none"><div class="icon">▦</div><b>4. Lembaran Kos</b><small>Pecahan Kos Bahan/Buruh</small></a>
+<a class="card c5" href="#varians" style="color:inherit;text-decoration:none"><div class="icon">⚖</div><b>5. Analisis Varians</b><small>Standard vs Sebenar</small></a>
+<a class="card c6" href="#perkhidmatan" style="color:inherit;text-decoration:none"><div class="icon">≋</div><b>6. Data Perkhidmatan</b><small>Katalog Rawatan Spa</small></a>
+<a class="card c7" href="#pekerja" style="color:inherit;text-decoration:none"><div class="icon">♟</div><b>7. Pekerja & Terapis</b><small>Senarai Staf & Kemahiran</small></a>
+<a class="card c8" href="#laporan" style="color:inherit;text-decoration:none"><div class="icon">▣</div><b>8. Cetak & Laporan</b><small>Pencetak PDF</small></a>
+<a class="card c9" href="#ringkasan" style="color:inherit;text-decoration:none"><div class="icon">◔</div><b>9. Ringkasan Kos</b><small>Rumusan Keseluruhan</small></a>
+</section></main></div></body></html>
